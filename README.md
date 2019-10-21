@@ -2,8 +2,10 @@
 
 The book can be found [here](BOOK.md).
 
-To generate the book yourself run the following command:
-`node index.js`
+## Disclaimer
+
+Shoot! It seems I misremembered the month in which I was supposed to be doing NaNoGenMo, since I wrote this code up the evening of *October* 21st 2019.
+Hope everybody can live with that, because I doubt I will be doing a new one in November.
 
 ## How the book is generated
 
@@ -11,6 +13,9 @@ Using an input file, every word is compared to a dataset of mappings between wor
 If the word exist in the dataset the matching emoji is inserted into the book, otherwise the word is ignored.
 
 Each line in the book has 20 emoji.
+
+To generate the book yourself run the following command:
+`node index.js`
 
 ## Definition of "word"
 
